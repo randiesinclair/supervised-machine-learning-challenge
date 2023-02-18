@@ -1,12 +1,8 @@
 # Supervised Machine Learning
 
-In this project, we aim to classify the risk level of loans using machine learning models. We will be using data from lending services companies and comparing the performance of two popular models: Logistic Regression and Random Forest Classifier.
+Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market.
 
-To begin, we will predict which model we think will perform better and justify our prediction based on information about the models. Next, we will split the data into training and testing sets, and create a features DataFrame and a labels set using the loan_status column.
-
-We will then create and fit both the Logistic Regression and Random Forest Classifier models using the training data. The models will be evaluated based on their accuracy scores, confusion matrix, and classification report.
-
-Finally, we will compare the actual performance of the two models and see if it matches our initial prediction. By the end of the project, we will have gained hands-on experience in building, training, and evaluating machine learning models for classification tasks.
+Today we will be using this data to create machine learning models to classify the risk level of given loans. Specifically, we will be comparing the Logistic Regression model and Random Forest Classifier.
 
 # Technical Skills
 - Machine Learning
