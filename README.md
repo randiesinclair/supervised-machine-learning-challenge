@@ -1,63 +1,43 @@
-# supervised-machine-learning-challenge
+# Supervised Machine Learning
 
-Background
-Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market.
+In this project, we aim to classify the risk level of loans using machine learning models. We will be using data from lending services companies and comparing the performance of two popular models: Logistic Regression and Random Forest Classifier.
 
-You will be using this data to create machine learning models to classify the risk level of given loans. Specifically, you will be comparing the Logistic Regression model and Random Forest Classifier.
+To begin, we will predict which model we think will perform better and justify our prediction based on information about the models. Next, we will split the data into training and testing sets, and create a features DataFrame and a labels set using the loan_status column.
 
-Before You Begin
-Create a new repository for this project called supervised-machine-learning-challenge. Do not add this Challenge to an existing repository.
+We will then create and fit both the Logistic Regression and Random Forest Classifier models using the training data. The models will be evaluated based on their accuracy scores, confusion matrix, and classification report.
 
-Clone the new repository to your computer.
+Finally, we will compare the actual performance of the two models and see if it matches our initial prediction. By the end of the project, we will have gained hands-on experience in building, training, and evaluating machine learning models for classification tasks.
 
-Inside your local git repository, create a directory for the Supervised Machine Learning Challenge.
+# Technical Skills
+- Machine Learning
+- Building and training models
+- Logistic Regression model
+- Random Forest Classifier model
+- Data Analysis
 
-Push the above changes to GitHub.
+# Parameters
+### Retrieve the Data
+- Import the lending_data.csv file as a Pandas dataframe
+- Confirm that the import was successful by displaying the dataframe
+<img src="https://user-images.githubusercontent.com/109693942/219884182-986898f2-cc07-4843-8c95-b495370a7e74.png" width="50%" height="50%">
 
-Files
-Download the following files to help you get started:
+### Predict Model Performance
+- Make a prediction on which model will perform better on the data
+- Justify the prediction with information about the models
+<img src="https://user-images.githubusercontent.com/109693942/219884519-068ed6bc-1ed7-4a47-bfcb-dba8e1da9aca.png" width="80%" height="80%">
 
-Module 19 Challenge filesLinks to an external site.
+### Split the Data into Training and Testing Sets
+- Create the features DataFrame, X, by removing the loan_status column
+- Create y, the labels set, by using the loan_status column
+- Split the data into training and testing datasets by using the train_test_split function
+<img src="https://user-images.githubusercontent.com/109693942/219884637-3c726e4f-63ca-4f3e-b244-2d051e0333a4.png" width="90%" height="90%">
 
-Instructions
-Retrieve the Data
-The data is located in the Challenge Files Folder:
+### Create, Fit and Compare Models
+- Create and train a Logistic Regression model
+- Score the Logistic Regression model
+- Create and train a Random Forest Classifier model
+- Score a Random Forest Classifier model
+- State which model performed better
+- Compare the actual model performance with your predictions
 
-lending_data.csv
-Import the data using Pandas. Display the resulting dataframe to confirm the import was successful.
-
-Predict Model Performance
-You will be creating and comparing two models on this data: a Logistic Regression, and a Random Forests Classifier. Before you create, fit, and score the models, make a prediction as to which model you think will perform better. You do not need to be correct!
-
-Write down your prediction in the designated cells in your Jupyter Notebook, and provide justification for your educated guess.
-
-Split the Data into Training and Testing Sets
-Create the features DataFrame, X, by removing the loan_status column. Create y, the labels set, by using the loan_status column. Split the data into training and testing datasets by using the train_test_split function.
-
-Create, Fit and Compare Models
-Create a Logistic Regression model, fit it to the training data that you created in the previous step. Then, determine the model's score by using the score function and the testing data from the previous step. Do the same for a Random Forest Classifier. You may choose any starting hyperparameters you like.
-
-Review the scores of each model. Which model performed better? How does that compare to your prediction? Write down your results and thoughts in the designated markdown cell.
-
-Requirements
-Retrieve the Data (5 points)
-To receive all points for this section, you must
-Import the lending_data.csv file as a Pandas dataframe (3 points)
-Confirm that the import was successful by displaying the dataframe (2 points)
-Predict Model Performance (15 points)
-To receive all points for this section, you must
-Make a prediction on which model will perform better on the data (5 points)
-Justify the prediction with information about the models (10 points)
-Split the Data into Training and Testing Sets (30 points)
-To receive all points for this section, you must
-Create the features DataFrame, X, by removing the loan_status column (10 points)
-Create y, the labels set, by using the loan_status column (10 points)
-Split the data into training and testing datasets by using the train_test_split function (10 points)
-Create, Fit and Compare Models (50 points)
-To receive all points for this section, you must
-Create and train a Logistic Regression model (10 points)
-Score the Logistic Regression model (10 points)
-Create and train a Random Forest Classifier model (10 points)
-Score a Random Forest Classifier model (10 points)
-State which model performed better (5 points)
-Compare the actual model performance with your predictions (5 points)
+![image](https://user-images.githubusercontent.com/109693942/219885236-1286c881-4363-41ef-a399-90cfcef44f50.png)
